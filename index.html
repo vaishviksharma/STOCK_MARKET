@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stock Market and Personal Finance</title>
     <style>
-        /* Style the header */
+       
         .header {
             background-color: #858282;
             padding: 30px;
@@ -13,7 +13,7 @@
             opacity: 0.7;
         }
 
-        /* Style the logo */
+      
         .logo {
             height:350px;
             width: 350px;
@@ -22,7 +22,7 @@
             
         }
 
-        /* Style the navigation bar */
+      
         .navbar {
             display: flex;
             align-items:start;
@@ -31,7 +31,7 @@
             color: rgb(253, 253, 253);
         }
 
-        /* Style the navigation links */
+       
         .navbar a {
             color: white;
             padding: 14px 20px;
@@ -39,27 +39,27 @@
             font-size: 17px;
         }
 
-        /* Change the color of links on hover */
+       
         .navbar a:hover {
             background-color: #5ca80c;
             color: black;
         }
 
-        /* Style the search box */
+      
         .search-box {
             display: flex;
             align-items: center;
             margin-right: 5px;
         }
 
-        /* Style the search input */
+      
         .search-box input[type=text] {
             padding: 10px;
             border: none;
             font-size: 17px;
         }
 
-        /* Style the search button */
+       
         .search-box button {
             padding: 10px;
             background-color: #ddd;
@@ -67,12 +67,12 @@
             cursor: pointer;
         }
 
-        /* Style the search button on hover */
+     
         .search-box button:hover {
             background-color: #4611cd;
         }
 
-        /* Style the WhatsApp button */
+      
         .whatsapp-button {
             display: inline-block;
             background-color: #25d366;
@@ -83,36 +83,35 @@
             border-radius: 5px;
         }
 
-        /* Style the WhatsApp button on hover */
+      
         .whatsapp-button:hover {
             background-color: #1ebea5;
         }
 
-        /* Style the main section */
         .main {
             max-width: 1000px;
             margin: auto;
         }
 
-        /* Style the slideshow container */
+      
         .slideshow-container {
             position: relative;
             margin: 20px;
         }
 
-        /* Hide the images by default */
+
         .mySlides {
             display: none;
         }
 
-        /* Style the images */
+   
         .mySlides img {
             width: 100%;
             height: 500px;
             object-fit: cover;
         }
 
-        /* Style the captions */
+      
         .caption {
             position: absolute;
             bottom: 0;
@@ -123,7 +122,7 @@
             font-size: 20px;
         }
 
-        /* Style the buttons */
+       
         .button {
             position: absolute;
             top: 50%;
@@ -136,24 +135,24 @@
             border-radius: 5px;
         }
 
-        /* Style the previous button */
+    
         .prev {
             left: 0;
             margin-left: 20px;
         }
 
-        /* Style the next button */
+       
         .next {
             right: 0;
             margin-right: 20px;
         }
 
-        /* Style the buttons on hover */
+       
         .button:hover {
             background-color: #ddd;
         }
 
-        /* Style the dots */
+      
         .dot {
             height: 15px;
             width: 15px;
@@ -164,18 +163,18 @@
             transition: background-color 0.6s ease;
         }
 
-        /* Style the active dot */
+     
         .active {
             background-color: #717171;
         }
 
-        /* Style the dots container */
+     
         .dots {
             text-align: center;
             margin-top: 20px;
         }
 
-        /* Style the footer */
+    
         .footer {
             background-color: #f1f1f1;
             padding: 20px;
@@ -183,14 +182,14 @@
             opacity: 0.8;
         }
 
-        /* Style the social media icons */
+    
         .icon {
             height: 32px;
             width: 32px;
             margin: 5px;
         }
 
-        /* Style the social media links */
+
         .social-media a {
             display: inline-block;
             vertical-align: middle;
@@ -204,12 +203,12 @@
     </style>
 </head>
 <body id="bdy" background="bull.jpg">
-    <!-- Create the header with the logo -->
+  
     <div class="header">
         <img src="logobear.png" alt="Logo" class="logo">
     </div>
 
-    <!-- Create the navigation bar with the links and the search box -->
+ 
     <div class="navbar">
         <a href="stocks.html">Explore Stocks</a>
         <a href="emi.html">EMI Calculator</a>
@@ -222,37 +221,36 @@
         <a href="whatsapp://send?text=Join our WhatsApp group&phone=+91-9876543210,+91-1234567890" class="whatsapp-button">Join WhatsApp Group</a>
     </div>
 
-    <!-- Create the main section with the slideshow -->
     <div class="main">
         <div class="slideshow-container">
 
-            <!-- First slide -->
+        
             <div class="mySlides">
                 <img src="slide1.jpg" alt="Slide 1">
                 <div class="caption">Learn how to invest in the stock market and grow your wealth</div>
                 <a href="learn.html" class="button next">Learn More</a>
             </div>
 
-            <!-- Second slide -->
+           
             <div class="mySlides">
                 <img src="slide2.jpg" alt="Slide 2">
                 <div class="caption">Find the best stocks to buy and sell with our expert analysis and recommendations</div>
                 <a href="find.html" class="button next">Find Stocks</a>
             </div>
 
-            <!-- Third slide -->
+          
             <div class="mySlides">
                 <img src="slide3.jpg" alt="Slide 3">
                 <div class="caption">Manage your personal finance and budget with our easy-to-use tools and tips</div>
                 <a href="manage.html" class="button next">Manage Finance</a>
             </div>
 
-            <!-- Previous and next buttons -->
+           
             <a class="button prev" onclick="plusSlides(-1)">❮</a>
             <a class="button next" onclick="plusSlides(1)">❯</a>
         </div>
 
-        <!-- Create the dots for the slideshow -->
+     
         <div class="dots">
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
@@ -260,7 +258,7 @@
         </div>
     </div>
 
-    <!-- Create the footer with the social media links and other information -->
+  
     <div class="footer">
         <div class="social-media">
             <a href="https://www.instagram.com/stockmarketfinance" ><img src="instA.png" alt="Instagram" class="icon"></a>
@@ -272,13 +270,5 @@
         <p><a href="terms.html">Terms and Conditions</a> | <a href="privacy.html">Privacy Policy</a> | <a href="contact.html">Contact Us</a></p>
     </div>
 
-    <!-- Add JavaScript code to make the slideshow work -->
-    <script>
-        // Get the slides and the dots
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
-
-        // Initialize the slide index
-        var slideIndex = 1;
-
-        // Show the first slide
+</body>
+</html>
